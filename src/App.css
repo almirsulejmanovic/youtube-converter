@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+body {
+background-image: url('./assets/img/bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.app {
+	margin: auto;
+	max-width: 800px;
+	padding: 20px;
+}
+.btn {
+	border-radius: 0 !important;
+}
+.download-border {
+	border-left: 1px solid lightgrey;
+}
+.download-button {
+	position: relative;
+}
+.download-button:focus,.download-button:active {
+	box-shadow: none;
+	outline: none !important;
+}
+.download-button-div {
+	text-align: center;
+}
+.download-column {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.download-progress {
+	margin: 25px;
+	width: 140px;
+}
+.form-control::placeholder {
+	color: #aaa;
+	font-size: 0.95rem;
+	font-style: italic;
+}
+.form-control:focus {
+	box-shadow: none !important;
+}
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+.nav-tabs {
+	margin-bottom: 0;
+}
+.progress {
+	border-radius: 0 !important;
+	height: 5px;
+}
+.search-button {
+	border: none;
+}
+.search-button:focus,.search-button:active {
+	box-shadow: none;
+	outline: none !important;
+}
+.search-div {
+	margin: 20px;
+}
+.tab-content {
+	background-color: white;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+	padding: 10px;
+}
+.url-download-div {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.video-details {
+	border-radius: .25rem;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: 20px;
+	transition: 0.3s;
+}
+.video-details:hover {
+	box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}
+.video-list {
+	list-style-type: none;
+	padding: 0px;
+}
+.video-title-div {
+	margin: 20px;
+}
+
+.app a {
+		color: white;
+		text-decoration: none;
+}
+
+.info {
+	color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .download-border {
+    margin-top: 15px;
+    border-top: 1px solid lightgray;
+    border-left: none;
+  }
+  .download-progress {
+    width: 140px;
+    margin: 10px;
+  }
+
+	.download-button-div {
+		text-align: center;
+		display: flex;
+		margin-top: 15px;
+	}
+}
